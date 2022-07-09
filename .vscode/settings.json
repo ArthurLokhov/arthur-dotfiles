@@ -1,0 +1,110 @@
+{
+    // Workbench ->
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showTabs": false,
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "workbench.editor.limit.value": 5,
+    "workbench.editor.showIcons": false,
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "seti",
+    // <-
+    // Editor ->
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.indentation": false,
+    "editor.renderLineHighlight": "none",
+    "editor.lineNumbers": "interval",
+    "editor.minimap.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.fontSize": 14,
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    "editor.fontFamily": "'CaskaydiaCove NF', 'Consolas'",
+    "editor.fontWeight": "350",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.foldingImportsByDefault": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.scrollBeyondLastColumn": 0,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.formatOnSave": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "entity.name.type.class",
+                    "keyword",
+                    "constant",
+                    "storage.modifier",
+                    "storage.type.class.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    // <-
+    // Files ->
+    "files.autoSave": "onFocusChange",
+    "files.defaultLanguage": "markdown",
+    // <-
+    // Terminal ->
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontSize": 16,
+    "terminal.external.linuxExec": "x-terminal-emulator",
+    // <-
+    // Window ->
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 2,
+    // <-
+    // Security ->
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": false,
+    // <-
+    // Explorer ->
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    // <-
+    // Go ->
+    // Go Coverage подсвечивает в файлах код, который покрыт тестами, если собственно вообще есть файл тестов
+    "go.coverOnSave": true,
+    "go.coverageDecorator": {
+        "type": "gutter",
+        "coveredHighlightColor": "rgba(64,128,128,0.5)",
+        "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+        "coveredGutterStyle": "blockgreen",
+        "uncoveredGutterStyle": "blockred",
+    },
+    "go.coverOnSingleTest": true,
+    // <-
+    // Glassit ->
+    "glassit-linux.opacity": 85,
+    // <-
+}

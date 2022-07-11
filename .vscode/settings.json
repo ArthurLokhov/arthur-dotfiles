@@ -7,8 +7,8 @@
     "workbench.sideBar.location": "right",
     "workbench.editor.limit.value": 5,
     "workbench.editor.showIcons": false,
+    "workbench.colorTheme": "Night Owl (No Italics)",
     "breadcrumbs.enabled": false,
-    "workbench.iconTheme": "seti",
     // <-
     // Editor ->
     "editor.bracketPairColorization.enabled": false,
@@ -92,19 +92,14 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     // <-
-    // Go ->
-    // Go Coverage подсвечивает в файлах код, который покрыт тестами, если собственно вообще есть файл тестов
-    "go.coverOnSave": true,
-    "go.coverageDecorator": {
-        "type": "gutter",
-        "coveredHighlightColor": "rgba(64,128,128,0.5)",
-        "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
-        "coveredGutterStyle": "blockgreen",
-        "uncoveredGutterStyle": "blockred",
-    },
-    "go.coverOnSingleTest": true,
-    // <-
-    // Glassit ->
-    "glassit-linux.opacity": 85,
+    // JavaScript ->
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "literals",
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "js/ts.implicitProjectConfig.checkJs": true,
     // <-
 }

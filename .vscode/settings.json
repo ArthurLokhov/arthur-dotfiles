@@ -7,6 +7,7 @@
     "workbench.sideBar.location": "right",
     "workbench.editor.limit.value": 5,
     "workbench.editor.showIcons": false,
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Night Owl (No Italics)",
     "breadcrumbs.enabled": false,
     // <-
@@ -91,15 +92,5 @@
     // Explorer ->
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    // <-
-    // JavaScript ->
-    "javascript.inlayHints.enumMemberValues.enabled": true,
-    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-    "javascript.inlayHints.parameterNames.enabled": "literals",
-    "javascript.inlayHints.parameterTypes.enabled": true,
-    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-    "javascript.inlayHints.variableTypes.enabled": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "js/ts.implicitProjectConfig.checkJs": true,
     // <-
 }

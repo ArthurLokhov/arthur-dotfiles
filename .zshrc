@@ -4,8 +4,6 @@ export ZSH_THEME="linuxonly"
 # Export Segment
 
 # Development and Text Exports
-export NVM_DIR="$HOME/.nvm"
-export DOTNET_ROOT=/snap/dotnet-sdk/current
 # Development and Text Exports
 
 
@@ -28,6 +26,3 @@ alias ss="source ~/.zshrc"
 
 # Other settings Segment
 # Other settings Segment
-
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
